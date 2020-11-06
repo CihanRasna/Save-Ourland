@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 5951277881388940255}
   - component: {fileID: 5951277881388940254}
   - component: {fileID: 5951277881388940193}
+  - component: {fileID: 1778975557}
+  - component: {fileID: 8622433568454453322}
+  - component: {fileID: 8535537191941169263}
+  - component: {fileID: -8145230862048260721}
   m_Layer: 0
   m_Name: Lizard
   m_TagString: Untagged
@@ -70,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -1128813155181456575, guid: a8d7a82fc1fa10445b79b659f544e4af,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -102,3 +106,108 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1778975557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951277881388940192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3b1c2e05ca6ff640855dd0b64e0b8f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+--- !u!60 &8622433568454453322
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951277881388940192}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.51, y: 1.86}
+    newSize: {x: 0.15, y: 0.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.114999995, y: -0.48999998}
+      - {x: -0.17132796, y: -0.5383688}
+      - {x: -0.26931643, y: -0.5014231}
+      - {x: -0.34273818, y: -0.40483388}
+      - {x: -0.42790723, y: -0.17830513}
+      - {x: -0.4247337, y: -0.10625301}
+      - {x: -0.47428727, y: -0.034258395}
+      - {x: -0.49043235, y: 0.1088471}
+      - {x: -0.515, y: 0.17}
+      - {x: -0.7472838, y: 0.15199558}
+      - {x: -0.79069847, y: 0.04286021}
+      - {x: -0.83708197, y: -0.016958935}
+      - {x: -0.90699553, y: -0.12800442}
+      - {x: -0.9147117, y: -0.18685144}
+      - {x: -0.8459124, y: -0.23952255}
+      - {x: -0.6776519, y: -0.24640441}
+      - {x: -0.693847, y: -0.28855884}
+      - {x: -0.6824944, y: -0.3471578}
+      - {x: -0.7278382, y: -0.5465852}
+      - {x: -0.8113934, y: -0.5317911}
+      - {x: -0.8232707, y: -0.57913536}
+      - {x: -0.6904104, y: -0.6422838}
+      - {x: -0.6612176, y: -0.6129002}
+      - {x: -0.53329265, y: -0.6171397}
+      - {x: -0.47609934, y: -0.5512676}
+      - {x: -0.41677263, y: -0.6271993}
+      - {x: -0.39499998, y: -0.72999996}
+      - {x: -0.32014406, y: -0.6939911}
+      - {x: -0.31820366, y: -0.5957168}
+      - {x: -0.145, y: -0.63}
+      - {x: -0.074999996, y: -0.57}
+      - {x: -0.074999996, y: -0.52}
+--- !u!50 &8535537191941169263
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951277881388940192}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-8145230862048260721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5951277881388940192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cefbb7483720a9438ee6df623b767b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  deathEffect: {fileID: 100004, guid: f95ff734540a0d749be6571b6cb5b37f, type: 3}
