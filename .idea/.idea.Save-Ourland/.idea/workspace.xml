@@ -15,6 +15,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Projectile.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.device-simulator@2.2.3-preview/Editor/SimulatorWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ProjectileSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CoinDisplay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Defender.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,11 +27,15 @@
         <option value="$PROJECT_DIR$/Assets/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ProjectileSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/DefenderSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Defender.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DefenderSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DefenderButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Projectile.cs" />
+        <option value="$PROJECT_DIR$/Assets/CoinDisplay.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +92,9 @@
       <workItem from="1604591733116" duration="2787000" />
       <workItem from="1604605814145" duration="4063000" />
       <workItem from="1604658443828" duration="1101000" />
+      <workItem from="1604834791576" duration="654000" />
+      <workItem from="1605709402074" duration="1871000" />
+      <workItem from="1605721853355" duration="989000" />
     </task>
     <servers />
   </component>

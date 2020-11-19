@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1843241799666091030}
+  - component: {fileID: 7448652007725786582}
   m_Layer: 0
   m_Name: CactusParent
   m_TagString: Untagged
@@ -31,6 +32,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7448652007725786582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723810343209539031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa68424a5e9b4144db20feb887e82921, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  placeCost: 100
 --- !u!1 &8775311700060286728
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,7 +117,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -3494450213032369641, guid: 574594fbc8026974b95e40224e7c7b4c,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

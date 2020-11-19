@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class DefenderSpawn : MonoBehaviour
 {
-    [SerializeField] private GameObject defender;
+    Defender defender;
     private Camera mainCam;
     void Awake()
     {
@@ -18,6 +18,12 @@ public class DefenderSpawn : MonoBehaviour
     private void OnMouseDown()
     {
         DefenderSpawner(GetClickedPosition());
+    }
+
+    public void SetSelectedDefender(Defender defenderToSelect)
+    {
+        defender = defenderToSelect;
+        
     }
 
     private Vector2 GetClickedPosition()
@@ -38,6 +44,6 @@ public class DefenderSpawn : MonoBehaviour
 
     private void DefenderSpawner(Vector2 roundedPos)
     {
-        GameObject newDefender = Instantiate(defender, roundedPos, transform.rotation);
+        Defender newDefender = Instantiate(defender, roundedPos, transform.rotation);
     }
 }

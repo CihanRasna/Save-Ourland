@@ -25,6 +25,7 @@
             </e>
           </e>
         </e>
+        <e p="CoinDisplay.cs" t="Include" />
         <e p="JMO Assets" t="Include">
           <e p="Cartoon FX" t="Include">
             <e p="CartoonFX Free.txt" t="Include" />
@@ -57,6 +58,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Defender.cs" t="Include" />
+          <e p="DefenderButton.cs" t="Include" />
           <e p="DefenderSpawn.cs" t="Include" />
           <e p="Enemy.cs" t="Include" />
           <e p="EnemySpawner.cs" t="Include" />

@@ -9,10 +9,16 @@ public class Projectile : MonoBehaviour
     [Range(0f, 5f)] [SerializeField] private float moveSpeed = 2f;
     [Range(0f, 5f)] [SerializeField] private float rotateSpeed = 30f;
     [SerializeField] private float damage = 50f;
-
+    private bool isTriggered = false;
+    
     void Update()
     {
         Move();
+        if (!isTriggered)
+        {
+            Destroy(gameObject , 5f);
+        }
+        
     }
 
     private void Move()
@@ -28,10 +34,8 @@ public class Projectile : MonoBehaviour
         {
             health.DealDamage(damage);
             Destroy(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject , 3f);
+            Debug.Log("1");
+            isTriggered = true;
         }
     }
 }
